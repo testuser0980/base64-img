@@ -22,7 +22,7 @@ export default function UploadImg() {
     toast.info("File Uploading", {
       position: "bottom-right",
     });
-    const url = "/api/v1/upload/img";
+    const url = "https://base64-server.vercel.app/api/v1/upload/img";
     // console.log(fileinfo, fileName);
     const data = await fetch(url, {
       method: "POST",

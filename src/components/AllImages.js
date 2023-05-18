@@ -25,7 +25,7 @@ export default function AllImages() {
     toast.info("Deleting", {
       position: "bottom-right",
     });
-    const url = "/api/v1/delete/img/" + id;
+    const url = "https://base64-server.vercel.app/api/v1/delete/img/" + id;
     const data = await fetch(url, {
       method: "DELETE",
       headers: {
