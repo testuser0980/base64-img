@@ -1,0 +1,18 @@
+.card {
+  position: relative;
+  i {
+    &.fas {
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      cursor: pointer;
+      background-color: #fff;
+      width: 30px;
+      height: 30px;
+      color: #000;
+      border-radius: 100%;
+      display: grid;
+      place-items: center;
+    }
+  }
+}
