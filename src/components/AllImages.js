@@ -10,7 +10,7 @@ export default function AllImages() {
   const [allFetchedImages, setAllFetchedImages] = useState("");
   let interval = $(".interval");
   const allImages = async () => {
-    const url = "/api/v1/all/images";
+    const url = "https://base64-server.vercel.app/api/v1/all/images";
     const data = await fetch(url, {
       method: "GET",
       headers: {
